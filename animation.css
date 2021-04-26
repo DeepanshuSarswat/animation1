@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.main {
+  padding: 60px 0;
+}
+.child {
+  padding: 50px;
+  margin: 40px;
+  font-size: 80px;
+  font-weight: 600;
+  background-color: #6d28d9;
+  color: white;
+  border-radius: 50px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+}
